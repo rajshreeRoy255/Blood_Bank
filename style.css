@@ -1,0 +1,78 @@
+body{
+    background: white;
+   
+}
+
+
+.anchor{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.anchor::before{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+
+}
+.anchor:hover::before{
+    width: 90%;
+    transition: 0.5s linear;
+    
+}
+#second-nav55{
+    background: linear-gradient(to right,rgb(40, 15, 56)2%,rgba(169, 71, 71, 0.4)),url("images/bg-apple1.webp");
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    margin-top: 55px;
+}
+
+
+/* animate */
+
+#second-nav h1{
+    font-size: 5rem;
+    width: 100%;
+    height: 60%;
+    /* border: 2px solid red; */
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    /* border: 2px solid red; */
+
+
+
+    letter-spacing: 14px;
+    /* -webkit-text-stroke: 1px white; */
+    color: transparent;
+    background-image: linear-gradient(#fff,#fff);
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text ;
+    background-position: -900px 0px;
+
+    animation:backcolor 2s linear infinite alternate;
+    text-align: center;
+    padding-top: 7%;
+
+
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+} 
+
+/* admin new order 2 */
+.main-container{
+    height: 60vh;
+    background-color: red;
+}
+
